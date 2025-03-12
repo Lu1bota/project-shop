@@ -51,7 +51,7 @@ function createMarkup(arr) {
   return arr
     .map((item) => {
       return `<div class="product-card" data-id="${item.id}">
-    <img src="${item.img} alt="${item.name}"/>
+    <img src="${item.img}" alt="${item.name}"/>
     <h2>${item.name}</h2>
     <h3>${item.category}</h3>
     <p>${item.price} грн</p>
